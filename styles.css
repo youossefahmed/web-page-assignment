@@ -3,3 +3,41 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #fff9f9;
+    background-color: #ed8787;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(24, 19, 160, 0.1);
+}
+
+.container p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: justify;
+    color: #fff9f9;
+}
+
+.container ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    color: #fff9f9;
+}
+
+.container ul li {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    color: #fff9f9;
+}
